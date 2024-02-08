@@ -12,7 +12,7 @@ func InitServer(runState *sync.WaitGroup) {
 	appServer := goblast.ApplicationServer{
 		RunState: runState,
 		CorsConfig: goblast.ApplicationServerCorsConfiguration{
-			AllowMethods:     []string{http.MethodPost},
+			AllowMethods:     []string{http.MethodPost, http.MethodGet},
 			AllowHeaders:     []string{"*"},
 			AllowCredentials: true,
 			AllowOrigins:     []string{"*"},
@@ -23,6 +23,8 @@ func InitServer(runState *sync.WaitGroup) {
 	appServer.AddController(&ArithmeticController{
 		ArithmeticService: &services.ArithmeticService{},
 	})
+
+	appServer.AddController(&HealthCheckController{})
 
 	appServer.Initialize()
 }
