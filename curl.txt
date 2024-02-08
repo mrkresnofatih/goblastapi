@@ -1,0 +1,6 @@
+curl --location 'http://localhost:1323/api/arithmetic/add' \
+--header 'Content-Type: application/json' \
+--data '{
+    "variableOne": 654,
+    "variableTwo": 43
+}'

@@ -25,6 +25,16 @@ github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWE
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mrkresnofatih/goblast v1.0.1 h1:Xus01kdcVXej+UM5HpDmaH5TqZ5IQOFKQxXhg1LWsCc=
 github.com/mrkresnofatih/goblast v1.0.1/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
+github.com/mrkresnofatih/goblast v1.0.2 h1:3OSP7O5LIBhGChzpA3I0ZQ3GR0GTLvFORJtXtILEH1w=
+github.com/mrkresnofatih/goblast v1.0.2/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
+github.com/mrkresnofatih/goblast v1.0.3 h1:a1ZjSf0VVG63+wm9QY0KQOwMPCEcoYw2WUZ2q+z73IM=
+github.com/mrkresnofatih/goblast v1.0.3/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
+github.com/mrkresnofatih/goblast v1.0.4 h1:G9uvwy22+E+KSjtX9JFEsk6tMNlWBuRE+B1zOWw+jFQ=
+github.com/mrkresnofatih/goblast v1.0.4/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
+github.com/mrkresnofatih/goblast v1.0.5 h1:EKRg9Zh17PFs4S4rUVkeffXHVBZ6Yk9ppR27hklb8Zg=
+github.com/mrkresnofatih/goblast v1.0.5/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
+github.com/mrkresnofatih/goblast v1.0.6-beta-1 h1:VJOg/cRJwBzMMQ2MOCPXSAS0SqV7/L+t3O4/pYmVlSw=
+github.com/mrkresnofatih/goblast v1.0.6-beta-1/go.mod h1:ec5t1dQtb0r6NeAe3HKF5ZYKrkvvq5L478577KqsuG4=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/objx v0.4.0/go.mod h1:YvHI0jy2hoMjB+UWwv71VJQ9isScKT/TqJzVSSt89Yw=

@@ -5,7 +5,6 @@ import (
 	"goblastapi-example/models"
 	"goblastapi-example/services"
 
-	"github.com/google/uuid"
 	"github.com/labstack/echo/v4"
 	"github.com/mrkresnofatih/goblast"
 )
@@ -19,7 +18,7 @@ func (a *ArithmeticAddEndpoint) GetHandler() echo.HandlerFunc {
 		addReq := new(goblast.ContextfulReq[models.ArithmeticRequest])
 		err := c.Bind(addReq)
 		if err != nil {
-			goblast.LogError(uuid.NewString(), uuid.NewString(), "failed to parse to model")
+			goblast.LogError(addReq.ReferenceId, "failed to parse to model")
 			return goblast.NotOkResponse(c, "failed to parse model")
 		}
 

@@ -22,11 +22,13 @@ func (a ArithmeticController) Register(echo *echo.Echo) {
 	addEndpoint := &ae.ArithmeticAddEndpoint{
 		ArithmeticService: a.ArithmeticService,
 	}
-	contextfulAddEndpoint := &goblast.ContextfulReqEndpoint[models.ArithmeticRequest]{
+	ctxfulAddEndpoint := &goblast.ContextfulReqEndpoint[models.ArithmeticRequest]{
 		Endpoint: addEndpoint,
-		NoAuth:   true,
 	}
-	controllerRouter.AddEndpoint(contextfulAddEndpoint)
+	clearAuthEndpoint := &goblast.ClearAuthEndpoint{
+		Endpoint: ctxfulAddEndpoint,
+	}
+	controllerRouter.AddEndpoint(clearAuthEndpoint)
 
 	controllerRouter.Build()
 }
